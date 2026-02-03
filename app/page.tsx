@@ -9,7 +9,7 @@ export default function Home() {
     .then(res=>setposts(res))
   },[])
   return (
-    <div>
+    <>
       
       <main className="container mx-auto px-4 py-6">
         <h2 className="text-4xl font-bold mb-4">Welcome to Our Blog</h2>
@@ -28,7 +28,7 @@ export default function Home() {
         </div>
         
         
-      </div>
+      </>
     
     
   );
